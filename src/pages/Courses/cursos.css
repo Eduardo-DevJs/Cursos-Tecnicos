@@ -1,0 +1,92 @@
+.title_course{
+  text-align: center;
+  padding: 40px;
+  background-color: #B91C1C;
+  color: #fff;
+}
+
+.grid_course{
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap:2rem;
+}
+
+.photo_course{
+  border-radius: 8px;
+  background-color: #B91C1C;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  width: 488px;
+  height: 488px;
+}
+
+.texts_courses{
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.description_course{
+  font-size: 1rem;
+  color: #353436;
+  line-height: 2;
+}
+
+.list_information{
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+}
+
+.list_information li{
+  display: flex;
+  gap: 10px;
+}
+
+.period {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.period h4{
+  color: #B91C1C;
+  font-weight: bold;
+}
+
+.period p{
+  color: #353436;
+  font-weight: bold;
+}
+
+.objective_bg{
+  background-color: #F3F4F6;
+  margin: 30px 0;
+  padding: 50px;
+}
+
+.objective_bg-2 {
+  padding: 50px;
+}
+
+.objective{
+  display: flex;
+  gap: 25px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.objective h1{
+  color: #111827;
+}
+
+.objective p{
+  color: #353436;
+  line-height: 1.5;
+}
