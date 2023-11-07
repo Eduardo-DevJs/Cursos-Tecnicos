@@ -1,9 +1,10 @@
-import Header from './Header';
+import RoutesPages from '../routes';
+
 
 const App = () => {
   return (
     <>
-      <Header />
+      <RoutesPages />
     </>
   );
 };

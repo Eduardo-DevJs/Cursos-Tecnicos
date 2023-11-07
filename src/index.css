@@ -6,6 +6,7 @@
   list-style: none;
 }
 
+
 a {
   display: inline-block;
   color: #333;
@@ -17,7 +18,7 @@ img {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 30px 25px;
 }

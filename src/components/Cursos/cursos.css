@@ -1,0 +1,27 @@
+.courses{
+  margin: 60px 0;
+}
+
+.list_courses{
+  display: grid;
+  align-items: center;
+  gap: 15px;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.item_course {
+  background-color: #F3F4F6;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  gap: 15px;
+  justify-content: center;
+  width: 280px;
+  border-radius: 4px;
+}
+
+.item_course h3 {
+  text-transform: uppercase;
+  text-align: center;
+}

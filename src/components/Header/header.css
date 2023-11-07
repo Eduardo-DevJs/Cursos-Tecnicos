@@ -1,0 +1,27 @@
+.header_bg{
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  flex-wrap: wrap;
+}
+
+.item_menu a {
+  color: #333;
+  font-size: 1.25rem;
+  transition: .2s all;
+  padding: 3px 5px;
+}
+
+.item_menu a:hover {
+  color: #B91C1C;
+}

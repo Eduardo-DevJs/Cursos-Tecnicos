@@ -1,0 +1,60 @@
+.home_bg {
+  background-color: #111827;
+}
+
+/* utilidades */
+.color-w {
+  color: #fff;
+}
+
+.pad-50{
+  padding: 50px;
+}
+
+/* home */
+.home{
+  height: 538px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.title_home{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.paragraph_home {
+  font-size: 1.3rem ;
+  line-height: 1.5;
+  font-weight: lighter;
+  max-width: 70ch;
+  text-align: center;
+}
+
+/* informacoes */
+.grid_informations{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.grid_informations p{
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+.grid_informations div:nth-child(1){
+  background-color: #353436;
+}
+
+.grid_informations div:nth-child(2){
+  background-color: #B91C1C;
+}
+
+.grid_informations div:nth-child(3){
+  background-color: #481A8F;
+}
